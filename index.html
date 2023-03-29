@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Grid & Flex|| Sandhika Galih </title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">MonJShop</h2>
+                <p class="sub-heading">Hoodie | Tshirt | Kaos</p>
+            </div>
+
+            <div class="feature feature1">
+                <h2 class="produk">T-Shirt</h2>
+                <p class="price">IDR 170K</p>
+            </div>
+
+            <div class="feature feature2">
+                <h2 class="produk">Jeans</h2>
+                <p class="price">IDR 250K</p>
+            </div>
+
+
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <i class="fas fa-bars" class="icons"></i>
+            </div>
+            <div class="brand">
+                <h2>MercShop</h2>
+            </div>
+            <ul class="menu-ul">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Services -->
+        <div class="services">
+            <div class="card course">
+                <i class="fa-solid fa-computer"></i>
+                <h2 class="service">Course</h2>
+                <p class="sub-service">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eveniet,
+                    fugiat ipsam cum magni ea?</p>
+            </div>
+            <div class="card t-shirt">
+                <i class="fa-sharp fa-solid fa-shirt"></i>
+                <h2 class="service">T-shirt</h2>
+                <p class="sub-service">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eveniet,
+                    fugiat ipsam cum magni ea?</p>
+            </div>
+            <div class="card podcast">
+                <i class="fa-solid fa-microphone"></i>
+                <h2 class="service">Podcast</h2>
+                <p class="sub-service">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eveniet,
+                    fugiat ipsam cum magni ea?</p>
+            </div>
+            <div class="card media">
+                <i class="fa-brands fa-youtube"></i>
+                <h2 class="service">Media</h2>
+                <p class="sub-service">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eveniet,
+                    fugiat ipsam cum magni ea?</p>
+            </div>
+        </div>
+
+        <!-- Gallery -->
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/201*201" alt="">
+            <img src="https://source.unsplash.com/random/202*202" alt="">
+            <img src="https://source.unsplash.com/random/203*203" alt="">
+            <img src="https://source.unsplash.com/random/204*204" alt="">
+            <img src="https://source.unsplash.com/random/205*205" alt="">
+            <img src="https://source.unsplash.com/random/206*206" alt="">
+            <img src="https://source.unsplash.com/random/207*207" alt="">
+            <img src="https://source.unsplash.com/random/208*208" alt="">
+            <img src="https://source.unsplash.com/random/209*209" alt="">
+            <img src="https://source.unsplash.com/random/2010*2010" alt="">
+        </section>
+    </div>
+
+    <!-- MY script -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.menu-ul');
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('slide')
+
+        })
+    </script>
+    <script src="https://kit.fontawesome.com/5bf2a33fd9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
